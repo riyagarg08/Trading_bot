@@ -294,6 +294,6 @@ python-dotenv>=1.0.0    # .env loader
 
 No third-party Binance SDK is used — all API calls are made via raw `requests` with manual HMAC-SHA256 signing, making the code fully transparent and dependency-light.
 
-#Important Note
+## Important Note
 
 Geo-Restriction: Binance Futures Testnet is geo-restricted in India and may redirect users to the real Binance login page instead of showing the GitHub OAuth option. The bot successfully connects to the testnet API endpoint (https://testnet.binancefuture.com), correctly builds and signs all requests, and handles all API responses and errors as demonstrated in the included log files. Valid testnet API keys are required to place live orders. Evaluators outside India (or using a VPN) can generate keys at testnet.binancefuture.com and run the bot directly.
